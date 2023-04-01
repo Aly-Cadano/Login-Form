@@ -1,0 +1,118 @@
+body{
+  font-family: "Roboto",Arial, Helvetica;
+  margin: 0;
+  background-image: linear-gradient(90deg, rgb(100, 214, 218), rgb(226, 64, 226));
+}
+
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  background-color: #ffffff;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+h1{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.fago{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 15px;
+}
+
+.btn-facebook{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #277bb3;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.btn-google{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffffff;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  box-shadow:  2px 2px 3px 2px #ebebeb;
+  letter-spacing: 2px;
+}
+
+.usepass{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.name{
+  margin-left: -240px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.pass{
+  margin-left: -190px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.u-name, .p-word{
+  margin-bottom: 15px;
+  width: 310px;
+  height: 40px;
+  border: none;
+  background-color: #EEEEEE;
+  border-radius: 10px;
+}
+
+.forgot{
+  margin-left: 5px;
+  font-size: 15px;
+  color: rgb(109, 105, 105);
+}
+
+.btn-sign-in{
+  width: 310px;
+  height: 40px;
+  border: none;
+  background-color: #131111;
+  border-radius: 10px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+p{
+  text-align: center;
+  font-size: 13px;
+  color: rgb(109, 105, 105);
+}
+
+.sign-up-now{
+  margin-left: 5px;
+}
